@@ -1,6 +1,8 @@
 # UX0-to-SD
 This is possibly the easiest way to setup your SD2Vita, PSVSD or PSTV USB Drive.
 
+![Screenshot](https://github.com/AntHJ/UX0toSD/blob/main/Vita.jpg)
+
 Simply run the tool the 1st time and it will set the SD as a secondary storage drive and reboot the system.
 
     Note : if your using a PSVSD or USB drive then hold the R trigger  while pressing X to start )
@@ -25,10 +27,13 @@ Finally, after the system reboots again with the new allocations and newly copie
     Note : any SD cards showing higher values than these are most likely fake
     
 # Preparing the SD
-The SD card MUST be formatted as exFat and often needs the zzBlank.img flashing to it first. this can be done by downloading and using the zzBlank.img and Win32DiskImager.exe .. Format the SD 'AFTER' Flashing the image
+You can either unlock My additional tool in the app if your card is not detected, or manually download my Tool -here-
+otherwise there are other more recognised methods where basically you will flash a file named zzBlank.img using the Win32Diskimager software to the card then fornat it as exFat. if your SD is upto 128gb then format it with the file allocation as default but anything over 128gb NEEDS to be format at 64k or you card will waste space over time.
+
+My Tool is the easiest option but either is fine.. the general reason for this is that the Vita needs to write data at the very begining of the card to recognise properly and needs to be in the correct storage format. the file allocation size is a little tricky to explain but basically 64k makes the wasted spaces smaller
 
     For cards upto 128gb, use exFat and (default) file allocation
     For cards over 128gb, use exFat at 64k file allocation
 
 
-** I am planning on releasing a Windows script that will make it a little easier to properly prepare the SD **
+** For a quick video of this all in action, goto  **
