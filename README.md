@@ -24,10 +24,14 @@ Finally, after the system reboots again with the new allocations and newly copie
     Note : any SD cards showing higher values than these are most likely fake
     
 # Preparing the SD
-You can either unlock My additional tool in the app if your card is not detected, or manually download my Tool [-here-](https://github.com/AntHJ/UX0toSD/blob/main/FormatTool-lite.zip)
-otherwise there are other more recognised methods where basically you will flash a file named zzBlank.img using the Win32Diskimager software to the card then fornat it as exFat. if your SD is upto 128gb then format it with the file allocation as default but anything over 128gb NEEDS to be format at 64k or you card will waste space over time.
 
-My Tool is the easiest option but either is fine.. the general reason for this is that the Vita needs to write data at the very begining of the card to recognise properly and needs to be in the correct storage format. the file allocation size is a little tricky to explain but basically 64k makes the wasted spaces smaller
+** I have now included 2 methods for preparing your SD **
+
+1 . PC Method : You can either unlock My additional tool in the app itself if your card is not detected, or manually download my Tool [-here-](https://github.com/AntHJ/UX0toSD/blob/main/FormatTool-lite.zip) otherwise there are other more recognised methods where basically you will flash a file named zzBlank.img using the Win32Diskimager software to the card then fornat it as exFat. if your SD is upto 128gb then format it with the file allocation as default but anything over 128gb NEEDS to be format at 64k or you card will waste space over time.
+
+My Tool is the easiest of the 2 PC options but either is fine.. the general reason for this is that the Vita needs to write data at the very begining of the card to recognise properly and needs to be in the correct storage format. the file allocation size is a little tricky to explain but basically 64k makes the wasted spaces smaller
 
     For cards upto 128gb, use exFat and (default) file allocation
     For cards over 128gb, use exFat at 64k file allocation
+
+2. On the Vita itself : I have included in my app SKGleba's StorageFormat tool that runs on the Vita itself that should properly format the SD, this is a much easier way of preparing your SD card BUT! if your card is a fake but manages to format, you may not notice until you run into issues..
