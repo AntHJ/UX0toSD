@@ -27,7 +27,7 @@ Finally, after the system reboots again with the new allocations and newly copie
 
 ** I have now included 2 methods for preparing your SD **
 
-1 . PC Method : You can either unlock My additional tool in the app itself if your card is not detected, or manually download my Tool [-here-](https://github.com/AntHJ/UX0toSD/blob/main/FormatTool-lite.zip) otherwise there are other more recognised methods where basically you will flash a file named zzBlank.img using the Win32Diskimager software to the card then fornat it as exFat. if your SD is upto 128gb then format it with the file allocation as default but anything over 128gb NEEDS to be format at 64k or you card will waste space over time.
+1 . PC Method : You can either unlock My additional tool in the app itself if your card is not detected, or manually download my Tool [-here-](https://github.com/AntHJ/UX0toSD/releases/download/v2.1b/SD.toolkit.v2.zip) otherwise there are other more recognised methods where basically you will flash a file named zzBlank.img using the Win32Diskimager software to the card then fornat it as exFat. if your SD is upto 128gb then format it with the file allocation as default but anything over 128gb NEEDS to be format at 64k or you card will waste space over time.
 
 My Tool is the easiest of the 2 PC options but either is fine.. the general reason for this is that the Vita needs to write data at the very begining of the card to recognise properly and needs to be in the correct storage format. the file allocation size is a little tricky to explain but basically 64k makes the wasted spaces smaller
 
