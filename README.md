@@ -1,5 +1,6 @@
 # UX0-to-SD
 This is possibly the easiest way to setup your SD2Vita, PSVSD or PSTV USB Drive.
+* Utilises Lua Player Plus Vita (lpp-vita). [Learn more.](https://github.com/Rinnegatamante/lpp-vita)
 
 ![Screenshot](https://github.com/AntHJ/UX0toSD/blob/main/Vita.jpg)
 
